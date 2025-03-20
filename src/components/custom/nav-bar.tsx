@@ -15,7 +15,7 @@ export function NavigationBar() {
         <>
             <NavigationMenu
                 aria-label="Primary Navigation"
-                className="container fixed z-50 min-w-[40%] justify-center gap-4 rounded-[4rem] border-b border-border/40 bg-black bg-opacity-10 px-4 py-4 backdrop-blur-lg sm:sticky sm:top-4 sm:flex dark:bg-opacity-20 dark:shadow-2xl dark:shadow-blue-500/[0.1]"
+                className="container fixed z-50 min-w-[40%] lg:min-w-[20%] justify-center gap-4 rounded-[4rem] border-b border-border/40 bg-black bg-opacity-10 px-4 py-4 backdrop-blur-lg sm:flex"
             >
                 <Avatar
                     className="cursor-pointer"

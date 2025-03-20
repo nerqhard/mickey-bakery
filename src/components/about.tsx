@@ -3,7 +3,7 @@ import { Reveal } from './custom/reveal';
 
 export default function About() {
     return (
-        <section className="flex flex-col items-start justify-start gap-4 py-16 sm:py-32">
+        <section className="flex flex-col items-start justify-start gap-4 py-16 lg:justify-center lg:items-center">
             <Reveal
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{
@@ -18,7 +18,7 @@ export default function About() {
                 >
                     Thông tin cửa hàng
                 </h2>
-                <div className="flex flex-col gap-8 lg:flex-row lg:items-start">
+                <div className="flex flex-col gap-8 lg:flex-row lg:items-center">
                     <div className="flex-1">
                         <p className="text-sm leading-7 text-black">
                             <b>Tên cửa hàng: </b>

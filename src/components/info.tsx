@@ -12,7 +12,7 @@ export default function Info() {
             className="mt-4 flex h-screen w-full flex-col items-center justify-center gap-4 sm:flex-row"
         >
             <div className="text-spotlight flex w-full flex-col gap-2">
-                <TypewriterEffectSmooth words={name} />
+                <TypewriterEffectSmooth words={name} className="flex justify-center" />
                 
                 <Reveal
                     initial={{ opacity: 0, x: 50 }}
@@ -37,7 +37,7 @@ export default function Info() {
                     </p>
                 </Reveal>
             </div>
-            <div className="relative flex h-[400px] w-full">
+            <div className="relative flex h-[400px] w-full lg:h-[500px]">
                 <Image
                     src={'/assets/images/me.jpg'}
                     alt="Me"

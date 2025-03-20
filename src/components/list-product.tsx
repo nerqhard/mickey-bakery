@@ -94,11 +94,9 @@ const ListProduct = () => {
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: -20 }}
                             transition={{ duration: 0.3 }}
-                            className="grid grid-cols-1 items-start gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
+                            className="flex flex-col flex-wrap justify-center gap-4"
                         >
-                            <div className="flex flex-col flex-wrap justify-center gap-4">
-                                <DetailCard cards={category.cards} />
-                            </div>
+                            <DetailCard cards={category.cards} />
                         </motion.div>
                     </TabsContent>
                 ))}

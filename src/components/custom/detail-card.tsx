@@ -109,14 +109,13 @@ export function DetailCard({ cards }: { cards: any[] }) {
                                         </motion.p>
                                     </div>
 
-                                    <motion.a
+                                    <motion.button
                                         layoutId={`button-${active.title}-${id}`}
                                         onClick={() => setActive(null)}
-                                        target="_blank"
                                         className="rounded-full bg-green-500 px-4 py-3 text-sm font-bold text-white"
                                     >
                                         Đóng
-                                    </motion.a>
+                                    </motion.button>
                                 </div>
                                 <div className="relative px-4 pt-4">
                                     <motion.div
@@ -140,26 +139,26 @@ export function DetailCard({ cards }: { cards: any[] }) {
                         layoutId={`card-${card.title}-${id}`}
                         key={`card-${card.title}-${id}`}
                         onClick={() => setActive(card)}
-                        className="flex min-w-24 max-w-24 cursor-pointer flex-col items-center justify-between rounded-xl border border-neutral-200 bg-white p-4 shadow-sm hover:bg-neutral-50 hover:shadow-md md:flex-row dark:border-neutral-700 dark:hover:bg-neutral-800"
+                        className="flex min-w-24 max-w-24 lg:min-w-40 lg:max-w-40 cursor-pointer flex-col items-center justify-between rounded-xl border border-neutral-200 bg-white p-4 shadow-sm hover:bg-neutral-50 hover:shadow-md"
                     >
-                        <div className="flex flex-col gap-2 md:flex-row">
+                        <div className="flex flex-col gap-2 lg:mb-4">
                             <motion.div layoutId={`image-${card.title}-${id}`}>
                                 <Image
                                     width={100}
                                     height={100}
                                     src={card.src}
                                     alt={card.title}
-                                    className="h-30 w-30 rounded-lg object-cover object-top md:h-14 md:w-14"
+                                    className="h-30 w-30 lg:h-40 lg:w-40 rounded-lg object-cover object-top"
                                 />
                             </motion.div>
-                            {/* <div className="">
+                            <div className="">
                                 <motion.h4
                                     layoutId={`title-${card.title}-${id}`}
-                                    className="text-center text-sm font-medium text-neutral-800 md:text-left dark:text-neutral-200"
+                                    className="text-center hidden lg:flex justify-center text-sm font-medium text-neutral-800 md:text-left dark:text-neutral-200"
                                 >
                                     {card.title}
                                 </motion.h4>
-                            </div> */}
+                            </div>
                         </div>
                         <motion.button
                             layoutId={`button-${card.title}-${id}`}
