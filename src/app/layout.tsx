@@ -43,6 +43,23 @@ export const metadata: Metadata = {
         icon: '/favicon.ico',
         shortcut: '/favicon-16x16.png',
     },
+    openGraph: {
+        title: 'Mickey | Tiệm bánh kem',
+        description:
+            'Tiệm bánh kem Mickey tại Cùa, Cam Chính',
+        url: 'https://banhkem-mickey.vercel.app',
+        siteName: 'Mickey | Tiệm bánh kem',
+        images: [
+            {
+                url: 'https://banhkem-mickey.vercel.app/assets/images/me.jpg',
+                width: 1200,
+                height: 630,
+                alt: 'Mickey | Tiệm bánh kem',
+            },
+        ],
+        locale: 'vi_VN',
+        type: 'website',
+    },
 };
 
 export default function RootLayout({
