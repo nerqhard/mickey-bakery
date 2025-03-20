@@ -9,13 +9,14 @@ import {
 } from '@/components/ui/navigation-menu';
 import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar';
 import { scrolltoHash } from '@/utils/utilities';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export function NavigationBar() {
     return (
         <>
             <NavigationMenu
                 aria-label="Primary Navigation"
-                className="container fixed z-50 min-w-[40%] lg:min-w-[20%] justify-center gap-4 rounded-[4rem] border-b border-border/40 bg-black bg-opacity-10 px-4 py-4 backdrop-blur-lg sm:flex"
+                className="container fixed z-50 min-w-[40%] justify-center gap-4 rounded-[4rem] border-b border-border/40 bg-black bg-opacity-10 px-4 py-4 backdrop-blur-lg sm:flex lg:min-w-[20%]"
             >
                 <Avatar
                     className="cursor-pointer"
@@ -49,10 +50,14 @@ export function NavigationBar() {
             {/* Button Menu cho mobile */}
             <button
                 onClick={() => scrolltoHash('list-product')}
-                className="fixed bottom-6 right-6 z-10 flex h-12 w-12 items-center justify-center rounded-full bg-red-500 text-white shadow-lg transition-transform hover:scale-110 sm:hidden"
+                className="group fixed bottom-6 right-6 z-10 flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-r text-sm transition-all duration-300 hover:scale-110 sm:hidden"
                 aria-label="Menu"
             >
-                Menu
+                <DotLottieReact
+                    src="/assets/icons/cake.json"
+                    loop
+                    autoplay
+                />
             </button>
         </>
     );

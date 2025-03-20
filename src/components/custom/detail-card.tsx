@@ -133,13 +133,13 @@ export function DetailCard({ cards }: { cards: any[] }) {
                     </div>
                 ) : null}
             </AnimatePresence>
-            <ul className="mx-auto flex w-full max-w-2xl flex-wrap gap-2">
+            <ul className="mx-auto flex w-full flex-wrap justify-center gap-2 lg:gap-6">
                 {cards.map((card, index) => (
                     <motion.div
                         layoutId={`card-${card.title}-${id}`}
                         key={`card-${card.title}-${id}`}
                         onClick={() => setActive(card)}
-                        className="flex min-w-24 max-w-24 lg:min-w-40 lg:max-w-40 cursor-pointer flex-col items-center justify-between rounded-xl border border-neutral-200 bg-white p-4 shadow-sm hover:bg-neutral-50 hover:shadow-md"
+                        className="flex min-w-[30%] max-w-[30%] lg:min-w-[15%] lg:max-w-[15%] cursor-pointer flex-col items-center justify-between rounded-xl border border-neutral-200 bg-white p-4 shadow-sm hover:bg-neutral-50 hover:shadow-md"
                     >
                         <div className="flex flex-col gap-2 lg:mb-4">
                             <motion.div layoutId={`image-${card.title}-${id}`}>

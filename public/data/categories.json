@@ -8,39 +8,34 @@
                     "description": "Bánh kem sinh nhật",
                     "title": "Bánh 01",
                     "src": "/assets/images/product/1.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
                     "content": "Bánh sinh nhật cho bé trai với thiết kế độc đáo và hấp dẫn.",
                     "price": 200000
                 },
                 {
                     "description": "Bánh kem sinh nhật",
                     "title": "Bánh 02",
-                    "src": "/assets/images/product/1.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
+                    "src": "/assets/images/product/2.jpg",
                     "content": "Bánh sinh nhật cho bé trai với thiết kế độc đáo và hấp dẫn.",
                     "price": 250000
                 },
                 {
                     "description": "Bánh kem sinh nhật",
                     "title": "Bánh 03",
-                    "src": "/assets/images/product/1.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
+                    "src": "/assets/images/product/3.jpg",
                     "content": "Bánh sinh nhật cho bé trai với thiết kế độc đáo và hấp dẫn.",
                     "price": 300000
                 },
                 {
                     "description": "Bánh kem sinh nhật",
                     "title": "Bánh 04",
-                    "src": "/assets/images/product/1.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
+                    "src": "/assets/images/product/4.jpg",
                     "content": "Bánh sinh nhật siêu nhân với thiết kế đầy màu sắc và sôi động.",
                     "price": 350000
                 },
                 {
                     "description": "Bánh kem sinh nhật",
                     "title": "Bánh 05",
-                    "src": "/assets/images/product/1.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
+                    "src": "/assets/images/product/5.jpg",
                     "content": "Bánh sinh nhật xe hơi với thiết kế độc đáo và ấn tượng.",
                     "price": 400000
                 },
@@ -48,7 +43,6 @@
                     "description": "Bánh kem sinh nhật",
                     "title": "Bánh 06",
                     "src": "/assets/images/product/2.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
                     "content": "Bánh sinh nhật công chúa với thiết kế lộng lẫy và sang trọng.",
                     "price": 450000
                 },
@@ -56,7 +50,6 @@
                     "description": "Bánh kem sinh nhật",
                     "title": "Bánh 07",
                     "src": "/assets/images/product/2.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
                     "content": "Bánh sinh nhật Hello Kitty với thiết kế đáng yêu và ngọt ngào.",
                     "price": 380000
                 },
@@ -64,7 +57,6 @@
                     "description": "Bánh kem sinh nhật",
                     "title": "Bánh 08",
                     "src": "/assets/images/product/2.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
                     "content": "Bánh sinh nhật Barbie với thiết kế thời trang và hiện đại.",
                     "price": 420000
                 }
@@ -78,7 +70,6 @@
                     "description": "Bánh cưới",
                     "title": "Bánh 03",
                     "src": "/assets/images/product/3.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
                     "content": "Bánh cưới sang trọng và lãng mạn cho ngày trọng đại.",
                     "price": 800000
                 },
@@ -86,7 +77,6 @@
                     "description": "Bánh cưới",
                     "title": "Bánh 09",
                     "src": "/assets/images/product/3.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
                     "content": "Bánh cưới tầng với thiết kế hoa hồng trắng tinh khôi.",
                     "price": 1200000
                 },
@@ -94,7 +84,6 @@
                     "description": "Bánh cưới",
                     "title": "Bánh 10",
                     "src": "/assets/images/product/3.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
                     "content": "Bánh cưới vintage với thiết kế cổ điển và sang trọng.",
                     "price": 1500000
                 },
@@ -102,7 +91,6 @@
                     "description": "Bánh cưới",
                     "title": "Bánh 11",
                     "src": "/assets/images/product/3.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
                     "content": "Bánh cưới hiện đại với thiết kế tối giản và thanh lịch.",
                     "price": 1000000
                 }
@@ -116,7 +104,6 @@
                     "description": "Kem plan",
                     "title": "Kem plan",
                     "src": "/assets/images/product/4.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
                     "content": "Kem plan đặc biệt cho ngày trọng đại.",
                     "price": 150000
                 },
@@ -124,7 +111,6 @@
                     "description": "Bánh mì",
                     "title": "Bánh mì 01",
                     "src": "/assets/images/product/4.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
                     "content": "Bánh mì tươi ngon, giòn rụm mỗi ngày.",
                     "price": 25000
                 },
@@ -132,7 +118,6 @@
                     "description": "Bánh ngọt",
                     "title": "Bánh ngọt 01",
                     "src": "/assets/images/product/4.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
                     "content": "Bánh ngọt đa dạng với nhiều hương vị hấp dẫn.",
                     "price": 45000
                 },
@@ -140,7 +125,6 @@
                     "description": "Bánh trung thu",
                     "title": "Bánh trung thu 01",
                     "src": "/assets/images/product/4.jpg",
-                    "ctaLink": "https://ui.aceternity.com/templates",
                     "content": "Bánh trung thu truyền thống và hiện đại.",
                     "price": 180000
                 }

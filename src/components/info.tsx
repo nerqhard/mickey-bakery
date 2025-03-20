@@ -25,7 +25,7 @@ export default function Info() {
                     <p className="font-mplus-rounded leading-7 text-center">
                         🎂 Mọi người chọn bánh và đặt bánh qua: 
                         <br />
-                        📞 038.6699.796 hoặc ⓕ 
+                        📞 0964.897.100 hoặc ⓕ 
                         <Link
                             href="https://www.facebook.com/tranlanh1990/"
                             target="_blank"

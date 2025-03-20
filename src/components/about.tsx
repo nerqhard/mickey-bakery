@@ -37,7 +37,7 @@ export default function About() {
                             </Link>
                             <br />
                             <b>SĐT: </b>{' '}
-                            <span className="font-bold text-red-400">0909090909</span>
+                            <span className="font-bold text-red-400">0964.897.100</span>
                             <br />
                             <b>Facebook: </b>{' '}
                             <Link
