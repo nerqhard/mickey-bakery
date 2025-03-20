@@ -1,20 +1,9 @@
 import Image from 'next/image';
-import {
-    Tooltip,
-    TooltipContent,
-    TooltipProvider,
-    TooltipTrigger,
-} from './ui/tooltip';
 import Link from 'next/link';
-import { Button } from './ui/button';
-
-import { AtSign, Github, Linkedin } from 'lucide-react';
 import { Reveal } from './custom/reveal';
 import { TypewriterEffectSmooth } from './ui/typewriter-effect';
 
-import { Readcv } from '@/components/ui/readcv';
-
-export default function Hero() {
+export default function Info() {
     const name = [{ text: 'Tiệm' }, { text: 'Bánh' }, { text: 'Kem' }, { text: 'Mickey' }];
 
     return (
@@ -33,10 +22,12 @@ export default function Hero() {
                         transition: { duration: 0.4, delay: 0.2 },
                     }}
                 >
-                    <p className="font-mplus-rounded leading-7">
-                        🎂 Mọi người chọn bánh kem ở bên dưới và đặt bánh qua: 0386699796 hoặc FB 
+                    <p className="font-mplus-rounded leading-7 text-center">
+                        🎂 Mọi người chọn bánh và đặt bánh qua: 
+                        <br />
+                        📞 038.6699.796 hoặc ⓕ 
                         <Link
-                            href="https://hitachids.com/"
+                            href="https://www.facebook.com/tranlanh1990/"
                             target="_blank"
                             className="font-bold text-red-400"
                         >
@@ -53,7 +44,7 @@ export default function Hero() {
                     fill
                     priority
                     style={{ objectFit: 'contain' }}
-                    className="scale-75 rounded-md object-cover"
+                    className="rounded-md object-cover"
                 />
             </div>
         </header>

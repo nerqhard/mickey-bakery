@@ -6,18 +6,20 @@ import {
     VariantLabels,
     motion,
 } from 'framer-motion';
+import { cn } from '@/lib/utils';
 interface Props {
     children: React.ReactNode;
     initial: AnimationProps['initial'];
     whileInView: TargetAndTransition | VariantLabels | undefined;
+    className?: string;
 }
 
-export const Reveal = ({ children, initial, whileInView }: Props) => {
+export const Reveal = ({ children, initial, whileInView, className }: Props) => {
     return (
         <motion.div 
-            initial={initial} 
+            initial={initial}
             whileInView={whileInView}
-            className="relative z-10"
+            className={cn('relative z-10', className)}
         >
             {children}
         </motion.div>

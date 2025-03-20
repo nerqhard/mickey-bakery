@@ -8,41 +8,28 @@ import {
     navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
 import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu } from 'lucide-react';
+import { scrolltoHash } from '@/utils/utilities';
 
 export function NavigationBar() {
-    const scrolltoHash = function (element_id: string) {
-        const element = document.getElementById(element_id);
-        element?.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-            inline: 'nearest',
-        });
-    };
-
     return (
         <>
             <NavigationMenu
                 aria-label="Primary Navigation"
-                className="fixed container z-50 min-w-[40%] justify-center gap-4 rounded-[4rem] border-b border-border/40 bg-black bg-opacity-10 px-4 py-4 backdrop-blur-lg sm:sticky sm:top-4 sm:flex dark:bg-opacity-20 dark:shadow-2xl dark:shadow-blue-500/[0.1]"
+                className="container fixed z-50 min-w-[40%] justify-center gap-4 rounded-[4rem] border-b border-border/40 bg-black bg-opacity-10 px-4 py-4 backdrop-blur-lg sm:sticky sm:top-4 sm:flex dark:bg-opacity-20 dark:shadow-2xl dark:shadow-blue-500/[0.1]"
             >
                 <Avatar
                     className="cursor-pointer"
                     onClick={() => scrolltoHash('hero')}
                 >
-                    <AvatarImage
-                        src="https://github.com/nerqhard.png"
-                        alt="@nerqhard"
-                    />
+                    <AvatarImage src="favicon.ico" alt="Mickey" />
                     <AvatarFallback>ET</AvatarFallback>
                 </Avatar>
                 <NavigationMenuList className="w-full justify-end gap-4">
                     <NavigationMenuItem className="cursor-pointer">
                         <NavigationMenuLink
                             className={navigationMenuTriggerStyle()}
-                            onClick={() => scrolltoHash('experiences')}
-                            aria-label="Experiences"
+                            onClick={() => scrolltoHash('list-product')}
+                            aria-label="Danh sách sản phẩm"
                         >
                             Menu
                         </NavigationMenuLink>
@@ -50,14 +37,23 @@ export function NavigationBar() {
                     <NavigationMenuItem className="cursor-pointer">
                         <NavigationMenuLink
                             className={navigationMenuTriggerStyle()}
-                            onClick={() => scrolltoHash('skills')}
-                            aria-label="Skills"
+                            onClick={() => scrolltoHash('about')}
+                            aria-label="Thông tin cửa hàng"
                         >
                             Liên hệ
                         </NavigationMenuLink>
                     </NavigationMenuItem>
                 </NavigationMenuList>
             </NavigationMenu>
+
+            {/* Button Menu cho mobile */}
+            <button
+                onClick={() => scrolltoHash('list-product')}
+                className="fixed bottom-6 right-6 z-10 flex h-12 w-12 items-center justify-center rounded-full bg-red-500 text-white shadow-lg transition-transform hover:scale-110 sm:hidden"
+                aria-label="Menu"
+            >
+                Menu
+            </button>
         </>
     );
 }

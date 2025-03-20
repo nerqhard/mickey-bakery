@@ -24,14 +24,16 @@ const mPlusRounded = M_PLUS_Rounded_1c({
 });
 
 export const metadata: Metadata = {
-    title: 'Quang Ha | Portfolio',
+    title: 'Mickey | Tiệm bánh kem',
     description:
-        'I explore, play, build, test and deploy software. Discover my projects, and development journey.',
+        'Tiệm bánh kem Mickey tại Cùa, Cam Chính',
     keywords: [
-        'Nguyen Quang Ha',
-        'Full-stack developer',
-        'portfolio',
-        'software engineering',
+        'Mickey',
+        'Tiệm bánh kem',
+        'bánh kem',
+        'bánh',
+        'Cùa',
+        'Cam Chính'
     ],
     robots: {
         index: true,
@@ -61,20 +63,20 @@ export default function RootLayout({
                     <div className="flex justify-center mt-2">
                         <NavigationBar />
                     </div>
-                    <div className="relative min-h-screen w-full overflow-hidden bg-background fade-in">
+                    <div className="relative min-h-screen w-full overflow-hidden bg-background fade-in z-0">
                         {/* Grid overlay */}
                         <div
-                            className="absolute inset-0"
+                            className="absolute inset-0 z-1] "
                             style={{
                                 backgroundImage: `
-              linear-gradient(to right, var(--theme-grid-color) 1px, transparent 1px),
-              linear-gradient(to bottom, var(--theme-grid-color) 1px, transparent 1px)
-            `,
+                                    linear-gradient(to right, var(--theme-grid-color) 1px, transparent 1px),
+                                    linear-gradient(to bottom, var(--theme-grid-color) 1px, transparent 1px)
+                                `,
                                 backgroundSize: '32px 32px',
                                 backgroundPosition: '0 0',
                             }}
                         />
-                        <main className="container mx-auto">{children}</main>
+                        <main className="container mx-auto z-2">{children}</main>
                     </div>
 
                     <footer className="container mx-auto py-4">
